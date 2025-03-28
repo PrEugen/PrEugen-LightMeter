@@ -83,7 +83,7 @@ double lastBatteryTime = 0;
 
 volatile bool screenOn = true;
 volatile unsigned long lastActivityTime = 0;
-const unsigned long screenTimeout = 8000; // 3分钟
+const unsigned long screenTimeout = 180000; // 3分钟
 
 void setup() {
   pinMode(PlusButtonPin, INPUT_PULLUP);
